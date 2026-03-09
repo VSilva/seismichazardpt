@@ -1531,6 +1531,9 @@ def download_uhs_models(_n, city, kind, rate, models, xrange_vals):
 # ============================================================
 # Run
 # ============================================================
+server = app.server  # expose Flask server for gunicorn
+
 if __name__ == "__main__":
-    # If 8050 is in use, change port=8051
-    app.run(debug=True, port=8053)
+    import os
+    port = int(os.environ.get("PORT", 8053))
+    app.run(debug=False, host="0.0.0.0", port=port)
