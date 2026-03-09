@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml xmlns="http://openquake.org/xmlns/nrml/0.4" xmlns:gml="http://www.opengis.net/gml">
+ <sourceModel name="as_model eshm20">
+<areaSource id="mainpruppESAS129" name="mainprupppESAS129" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-9.4415 36.1544 -9.6818 37.1851 -9.1597 36.9915 -8.8257 36.8425 -7.7938 36.8902 -7.1355 37.3087 -6.8133 37.1361 -6.4268 36.4140 -6.8459 36.2680 -7.8946 36.2469 -8.7348 36.1183 -9.4415 36.1544</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>0.0</upperSeismoDepth>
+ <lowerSeismoDepth>60.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.03778297462369262 0.030712936260829743 0.024966456504049314 0.02029584409027896 0.01649977341558133 0.013414606918741225 0.010907341629169162 0.00886987581285506 0.007214348509271499 0.005869350936265998 0.0047768462284601895 0.0038896643669126367 0.0031694637416303795 0.0025850705970790148 0.002111123475790618 0.0017269623892663755 0.0014157124607639317 0.0011635199976779429 0.0009589066603142866 0.0007922170362568231 0.0006551509932490908 0.000540401768295464 0.0004414711691289302 0.0003527996821998839 0.00027038095983463383 0.00019287835844855028 0.0001226996860344843 6.557827984224042E-05 2.714293303023606E-05 7.793156379428312E-06 1.3385120923612663E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="257.36" dip="30.85" rake="0" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="13.2" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS132" name="mainprupppESAS132" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-6.4268 36.4140 -5.6451 36.7702 -4.9228 36.1964 -4.9207 35.5463 -6.1007 35.4872 -6.4268 36.4140</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>0.0</upperSeismoDepth>
+ <lowerSeismoDepth>22.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.010962284028570392 0.008650411154997525 0.006826965052986918 0.005388847338302229 0.004254727544359953 0.0033604450750255 0.0026553807038200254 0.00209959222083214 0.001661551885012602 0.0013163572262418497 0.0010443134604610415 0.0008298070610879438 0.0006604075604864268 0.0005261503962027767 0.0004189701268915223 0.00033227374587835063 0.00026067013459979426 0.00019989860929512716 0.00014699997645348942 0.00010068187097978055 6.1568507600526E-05 3.168178030492801E-05 1.2647322793381037E-05 3.5083067214471445E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="34.44" dip="67.16" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="13.2" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS138" name="mainprupppESAS138" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-7.1355 37.3087 -5.2917 37.8228 -4.9629 37.0741 -5.6451 36.7702 -6.4268 36.4140 -6.8133 37.1361 -7.1355 37.3087</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>0.0</upperSeismoDepth>
+ <lowerSeismoDepth>22.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.01529237009257841 0.011981357300457622 0.00938750267269041 0.007355500205456132 0.0057636792711152525 0.004516720110009129 0.0035399468344940073 0.002774856244641598 0.0021756147256890975 0.0017063134324033034 0.001338817331521483 0.0010510791853790124 0.0008258173469500819 0.0006494779768492008 0.0005114193294518984 0.0004032692085847499 0.0003184175858877913 0.00025161578098455855 0.0001986627912942356 0.00015616975821371978 0.00012140597140723351 9.224165948428786E-05 6.72019454544283E-05 4.560437748204797E-05 2.7637952673379867E-05 1.4099083258531663E-05 5.581825287606534E-06 1.5361579484537049E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="0.00" dip="90.00" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="13.2" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS147" name="mainprupppESAS147" tectonicRegion="Shallow offshore">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-13.2078 42.6057 -13.0581 43.7579 -10.0028 43.1349 -9.0506 41.3629 -9.6026 39.7327 -13.0367 41.4366 -13.2078 42.6057</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.008640823013791057 0.0071914432236730025 0.005986643643011692 0.004985397942509975 0.004153597268858552 0.0034628854134975545 0.002889687383747017 0.0024143969446305535 0.0020206933683548905 0.001694960998152196 0.001425787477300008 0.0012035180675760626 0.00101984561779657 0.0008674214411421655 0.0007394879970882662 0.0006295712181643152 0.0005313430600065944 0.00043887500599940174 0.00034758907887517574 0.00025605740760930337 0.00016801735362346646 9.249320436658425E-05 3.93728081351451E-05 1.1609698453458132E-05 2.0452343013470537E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="0.00" dip="90.00" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS149" name="mainprupppESAS149" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-10.0028 43.1349 -9.5475 43.9736 -7.0318 43.1835 -6.7568 42.7173 -7.3342 42.6216 -8.3630 41.0077 -9.0506 41.3629 -10.0028 43.1349</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.02349071676158844 0.01842017241213094 0.014445804969283521 0.011330801213728973 0.008889516182399117 0.006976412905236047 0.005477389593604932 0.004302977142892484 0.0033830010032772397 0.002662388516074461 0.0020978710634891647 0.0016553843164669605 0.0013080135999976993 0.0010343692820006327 0.0008173143234231823 0.0006430085883376488 0.0005002855664445051 0.00038042618707354676 0.00027739116888078456 0.0001884000878755184 0.00011427080045672716 5.8339461834755346E-05 2.3114012531835E-05 6.36572271881099E-06 1.0507391947166013E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="210.58" dip="64.03" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS151" name="mainprupppESAS151" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-3.9931 42.1781 -4.7176 42.4495 -5.6509 42.7690 -6.7568 42.7173 -7.0318 43.1835 -9.5475 43.9736 -9.0682 44.3450 -7.9249 44.3725 -6.9195 44.2166 -5.3406 43.9717 -5.2962 43.7139 -2.4901 42.5343 -3.9931 42.1781</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.014988136171491702 0.011964803036125224 0.009552736460711753 0.007628516192828647 0.0060936554481343976 0.00486956123891695 0.0038935105441220558 0.003115435866541689 0.002495354826355857 0.0020013110574262274 0.0016077196067853187 0.0012940309856009132 0.0010436459210159763 0.0008430304295478567 0.0006810022211291289 0.0005481903515116523 0.0004367150176737451 0.0003401856489851821 0.0002541253588735201 0.00017677464982570617 0.00010974418055540861 5.7297626272429746E-05 2.319258445982796E-05 6.519143605476367E-06 1.0972611698476734E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="0.00" dip="90.00" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+
+<areaSource id="mainpruppESAS152" name="mainprupppESAS152" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-3.5771 38.2552 -5.0980 39.2866 -6.7557 40.5016 -5.6043 41.1326 -4.7176 42.4495 -3.9931 42.1781 -2.5451 41.1749 -2.7169 41.0084 -2.2912 40.2232 -1.0594 39.3867 -1.0664 39.1517 -3.5771 38.2552</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.008828182730411058 0.0067885153127046766 0.005220547564491789 0.0040152265491015405 0.003088711543060894 0.002376543711818573 0.0018291631804648496 0.0014084616864118334 0.0010851309828118138 0.000836622488983794 0.0006455762511465334 0.000498610146355134 0.0003853859287114656 0.0002978893432785348 0.0002298791357668265 0.00017647618214050007 0.0001338799587681674 9.921233758831087E-05 7.04864212214074E-05 4.6655751498171106E-05 2.7594662032929393E-05 1.3749609608727975E-05 5.322024877305931E-06 1.4334107140113392E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="47.13" dip="79.40" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS153" name="mainprupppESAS153" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-7.8128 37.3507 -5.0980 39.2866 -3.5771 38.2552 -5.2917 37.8228 -7.1355 37.3087 -7.8128 37.3507</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.005459919181192693 0.004259926797104583 0.0033240319987997927 0.002594144489371654 0.002024952678426819 0.001581111630545768 0.0012350491290042632 0.0009652536167718156 0.000754937638381727 0.0005909936772415664 0.0004631774440288423 0.0003634679368145952 0.00028556503266472595 0.0002244950474181638 0.00017630379698755033 0.00013782646943979684 0.00010653472826483795 8.04716116637676E-05 5.8283579633148334E-05 3.9322773465661176E-05 2.3696140007215512E-05 1.202219538283883E-05 4.7346817995283015E-06 1.2965060451068384E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="47.13" dip="79.40" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppESAS156" name="mainprupppESAS156" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-6.7557 40.5016 -8.2801 39.6657 -8.3305 40.1576 -8.3630 41.0077 -7.3342 42.6216 -6.7568 42.7173 -5.6509 42.7690 -4.7176 42.4495 -5.6043 41.1326 -6.7557 40.5016</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.013606819407580843 0.010801866206456262 0.008576316539248882 0.006810618396376141 0.005409897325316736 0.004298860101302298 0.0034177485463033203 0.0027191257427174598 0.0021653213720529505 0.0017263980809198 0.0013785286409981699 0.001102696026637796 0.0008836472783699582 0.0007090495716353309 0.0005688167017810952 0.00045460070282215127 0.0003594797768604974 0.0002779132126606011 0.00020603817825094045 0.00014225584317059702 8.767441447218013E-05 4.545603989196712E-05 1.827697553858144E-05 5.104841331488371E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="27.58" dip="73.52" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppMAAS344" name="mainprupppMAAS344" tectonicRegion="Shallow offshore">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-10.3407 35.1418 -9.4415 36.1544 -8.7348 36.1183 -7.8946 36.2469 -6.8459 36.2680 -6.4268 36.4140 -6.1007 35.4872 -6.4347 34.6831 -7.1931 34.8223 -8.4832 34.6505 -8.9422 34.6560 -9.2855 34.8241 -10.3407 35.1418</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>0.0</upperSeismoDepth>
+ <lowerSeismoDepth>60.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.04520074729988524 0.03655976937945743 0.02957200024666043 0.02392133035235519 0.019352118070253124 0.015657625395675348 0.012670665001279793 0.010256035367879363 0.008304401446373934 0.006727343479242816 0.005453349132783041 0.0044245663032454995 0.003594167744142965 0.002924205573983721 0.0023838551716195647 0.0019479655198580666 0.0015958490162804907 0.0013102621430243966 0.0010765562460800107 0.0008820258433037322 0.000715560852593114 0.0005678094711228981 0.00043209879361960103 0.0003061103036883 0.00019342972949490077 0.00010271869102134296 4.225616517405416E-05 1.2062056056755718E-05 2.0602644593664336E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="311.33" dip="43.32" rake="0" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="13.2" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS384" name="mainprupppPTAS384" tectonicRegion="Shallow offshore">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-12.7405 35.6122 -14.8702 36.5077 -15.1010 37.7433 -13.3908 37.6692 -11.9813 36.9714 -12.5351 36.4053 -12.7405 35.6122</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>0.0</upperSeismoDepth>
+ <lowerSeismoDepth>30.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.04974049155070498 0.04135794253229522 0.03439640216539752 0.02861637043362472 0.023818912551508628 0.01983879619137023 0.016538774091616 0.013804807777553316 0.01154205634601272 0.009671474854817959 0.00812688087767472 0.006852357879047925 0.005799877254459265 0.004927054093847669 0.0041950407798558055 0.0035667710127180053 0.0030061752039626634 0.0024796034520067527 0.001961164820016003 0.0014428026996303421 0.0009455145281706119 0.0005198706870342196 0.00022104522209411177 6.510752414921027E-05 1.1457820569843764E-05</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="0.00" dip="90.00" rake="0" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="13.2" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS386" name="mainprupppPTAS386" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-8.3630 41.0077 -8.3305 40.1576 -8.2801 39.6657 -8.8574 39.3211 -9.1873 39.3136 -9.7932 38.7200 -9.6026 39.7327 -9.0506 41.3629 -8.3630 41.0077</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.010556920180953784 0.008388532759339512 0.006666461061269956 0.005298945642517788 0.004213099995553506 0.0033510268931674393 0.0026667320731198103 0.0021236704869610976 0.0016927938567173869 0.0013509948043148746 0.0010798638436344678 0.0008646924138217393 0.0006936693350024304 0.000557231463565963 0.00044754461647259327 0.0003581115773575531 0.0002835328084340854 0.00021947698107878247 0.0001629222462510834 0.00011262858229863033 6.949958727217766E-05 3.6075427051868236E-05 1.4521516137470408E-05 4.060269231791097E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="28.93" dip="67.45" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS387" name="mainprupppPTAS387" tectonicRegion="Shallow offshore">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-13.0367 41.4366 -9.6026 39.7327 -9.7932 38.7200 -9.4182 38.0131 -9.5999 37.5521 -9.6818 37.1851 -11.0899 37.3691 -11.9813 36.9714 -12.5095 38.3724 -12.8112 39.8966 -13.0367 41.4366</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.05409794863249473 0.044584565645262586 0.03674428716587208 0.03028288821620531 0.024957888465425987 0.02056945259059237 0.016952890958242137 0.013972479196093207 0.011516364716326125 0.009492369039408144 0.00782452838025633 0.006450242657178494 0.0053179259066168 0.004385069887522915 0.0036166481402208767 0.0029838005013587843 0.002462748538445905 0.002033900934338806 0.0016811148271285237 0.0013910847321541315 0.0011528351261283175 0.0009572962149463071 0.0007969450135465539 0.0006654959491330845 0.0005576274457393376 0.00046873488661942605 0.00039470907288153266 0.0003317580800075669 0.00027632549857473673 0.00022520850942674793 0.00017601284935425427 0.00012799365228478038 8.294559418981459E-05 4.512262700305795E-05 1.8992993987937596E-05 5.540948902652803E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="0.00" dip="90.00" rake="0" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS389" name="mainprupppPTAS389" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-9.4182 38.0131 -9.7932 38.7200 -9.1873 39.3136 -8.8574 39.3211 -8.2801 39.6657 -8.4481 38.7252 -8.5945 38.3232 -9.0237 37.9930 -9.4182 38.0131</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.05796771522695007 0.04604589614915486 0.036576119991017036 0.0290540782067108 0.02307918516773158 0.018333245383779284 0.014563508278712153 0.011569208121862788 0.009190872310340728 0.007301828619828411 0.005801459140075398 0.004609841621829348 0.0036634928362570384 0.002911987218204983 0.0023152706526429236 0.001841526246743704 0.0014654782734499225 0.0011670437349064079 0.0009302594150550152 0.0007424268651597039 0.0005934293201337957 0.0004751838245940765 0.0003811996524327604 0.00030622146535451737 0.0002459440595667954 0.00019679694911173848 0.0001558128672762742 0.00012061157194432758 8.953243355389054E-05 6.189400952268054E-05 3.819286391300819E-05 1.9824921702048718E-05 7.980166665982052E-06 2.2312839011931384E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="30.95" dip="72.67" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS391" name="mainprupppPTAS391" tectonicRegion="Shallow offshore">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-12.7405 35.6122 -12.5351 36.4053 -11.9813 36.9714 -11.0899 37.3691 -9.6818 37.1851 -12.7405 35.6122</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>0.0</upperSeismoDepth>
+ <lowerSeismoDepth>60.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.022744803800536714 0.01757854402062891 0.013587029447465225 0.01050324002559596 0.008120851210367791 0.006280433557306404 0.004858787673663621 0.0037607009568886365 0.0029125744170073603 0.0022574929084435607 0.0017514087748820208 0.0013601840008435635 0.0010572950978655475 0.0008220532155506733 0.0006382343628396228 0.0004930559158477761 0.0003764779549328722 0.0002808432861443699 0.00020086377751788218 0.00013383783404896226 7.967368660191482E-05 3.9948825159708524E-05 1.5556249562163406E-05 4.214047737094176E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="36.06" dip="25.78" rake="0" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="13.2" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS392" name="mainprupppPTAS392" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-6.7557 40.5016 -5.0980 39.2866 -7.8128 37.3507 -8.5190 37.4821 -9.1094 37.4798 -9.5999 37.5521 -9.4182 38.0131 -9.0237 37.9930 -8.5945 38.3232 -8.4481 38.7252 -8.2801 39.6657 -6.7557 40.5016</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.020116117585153942 0.015971709859101235 0.012682901279667043 0.010073252371994433 0.008002722905977293 0.006360159137534505 0.005057328222232468 0.004024179159957545 0.0032050750879308813 0.002555793500962243 0.002041131989446352 0.0016329899973258925 0.0013088247093462953 0.0010504050560331312 0.0008428170646187171 0.0006737130239527485 0.0005328509899342187 0.00041202980938213223 0.00030553122110499114 0.00021099168187802393 0.00013006277999955514 6.744557324329985E-05 2.7123406754184596E-05 7.576987372391086E-06 1.2677936740793599E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="32.02" dip="79.51" rake="-90" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+<areaSource id="mainpruppPTAS393" name="mainprupppPTAS393" tectonicRegion="Shallow Inland">
+<areaGeometry>
+ <gml:Polygon>
+  <gml:exterior>
+   <gml:LinearRing>
+    <gml:posList>-8.8807 37.4807 -8.5190 37.4821 -7.8128 37.3507 -7.1355 37.3087 -7.7938 36.8902 -8.8257 36.8425 -9.1597 36.9915 -9.6818 37.1851 -9.5999 37.5521 -9.1094 37.4798 -8.8807 37.4807</gml:posList>
+   </gml:LinearRing>
+  </gml:exterior>
+ </gml:Polygon>
+ <upperSeismoDepth>1.0</upperSeismoDepth>
+ <lowerSeismoDepth>20.0</lowerSeismoDepth>
+</areaGeometry>
+   <magScaleRel>PointMSR</magScaleRel>
+   <ruptAspectRatio>1.0</ruptAspectRatio>
+<incrementalMFD minMag="4.55" binWidth="0.1">
+  <occurRates>0.01501602939444277 0.012497295994003024 0.010403594284252894 0.008663628676139262 0.007218124776113527 0.006017805141440173 0.005021701130302175 0.004195741011308939 0.003511562610175493 0.0029455046272867536 0.002477734659672432 0.0020914746952485283 0.001772288559803297 0.0015074056992918326 0.0012850828541902037 0.0010940693846827007 0.0009233684100296885 0.0007626773491431469 0.000604040589333512 0.0004449767751508639 0.00029198069637113676 0.00016073476720193541 6.842209860744528E-05 2.0175343593949878E-05 3.5542098638675583E-06</occurRates>
+</incrementalMFD>
+    <nodalPlaneDist>
+
+<nodalPlane strike="36.82" dip="67.26" rake="0" probability="1.00" />
+    </nodalPlaneDist>
+    <hypoDepthDist>
+      <hypoDepth depth="11.6" probability="1.0" />
+    </hypoDepthDist>
+</areaSource>
+ </sourceModel>
+</nrml>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+<!--  source models : area sources and SEIS + fault sources]  pre-release model  -->
+
+    <logicTree logicTreeID="lt1">
+            <logicTreeBranchSet branchSetID="bs1" uncertaintyType="sourceModel" >
+
+<!--  area sources low TGR models vs MaxMags-->
+
+                <logicTreeBranch branchID="ABL_ML">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_lo_abgrs_maxmag_low.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+					 					
+                    </uncertaintyModel>
+                    <uncertaintyWeight>0.030</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="ABL_MC">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_lo_abgrs_maxmag_mid.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+						
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.024</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="ABL_MU">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_lo_abgrs_maxmag_upp.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.006</uncertaintyWeight>
+                </logicTreeBranch>
+<!--  area sources mid TGR models vs MaxMags-->
+
+                <logicTreeBranch branchID="ABM_ML">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_mid_abgrs_maxmag_low.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					 
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.09</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="ABM_MC">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_mid_abgrs_maxmag_mid.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+					 
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.072</uncertaintyWeight>
+
+                </logicTreeBranch>
+                <logicTreeBranch branchID="ABM_MU">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_mid_abgrs_maxmag_upp.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+					 
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.018</uncertaintyWeight>
+
+                </logicTreeBranch>
+<!--  area sources upper TGR models vs MaxMags-->
+
+                <logicTreeBranch branchID="ABU_ML">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_hi_abgrs_maxmag_low.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					 
+					 					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.03</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="ABU_MC">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_hi_abgrs_maxmag_mid.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+					 
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.024</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="ABU_MU">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_hi_abgrs_maxmag_upp.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					 
+					 
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.006</uncertaintyWeight>
+                </logicTreeBranch>
+
+<!--  area sources mid pareto models vs MaxMags-->
+                <logicTreeBranch branchID="PM_ML">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_pareto_abgrs_cornermag_low.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+										
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.06</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="PM_MC">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_pareto_abgrs_cornermag_mid.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+
+					
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.08</uncertaintyWeight>
+
+                </logicTreeBranch>
+                <logicTreeBranch branchID="PM_MU">
+                    <uncertaintyModel>
+
+					 source_models/asm_v12e/asm_pt_pareto_abgrs_cornermag_upp.xml
+					 source_models/asm_v12e/asm_pt_twingr.xml
+
+					
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.06</uncertaintyWeight>
+
+                </logicTreeBranch>
+
+
+<!--  active faults source models: lower branches low slip-rates vs MaxMags-->
+                <logicTreeBranch branchID="fs_SRL_ML">
+                    <uncertaintyModel>
+                    source_models/fsm_v09/fs_pt_model_aGR_SRL_ML_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+
+					 
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.025</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="fs_SRL_MA">
+                    <uncertaintyModel>
+
+                    source_models/fsm_v09/fs_pt_model_aGR_SRL_MA_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+					 
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.02</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="fs_SRL_MU">
+                    <uncertaintyModel>
+
+                    source_models/fsm_v09/fs_pt_model_aGR_SRL_MU_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+
+					
+										
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.005</uncertaintyWeight>
+                </logicTreeBranch>
+
+<!--  active faults source models: mid branches average slip-rates vs MaxMags                 -->
+ 				<logicTreeBranch branchID="fs_SRA_ML">
+                    <uncertaintyModel>
+
+                    source_models/fsm_v09/fs_pt_model_aGR_SRA_ML_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+
+					
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="fs_SRA_MA">
+                    <uncertaintyModel>
+                    source_models/fsm_v09/fs_pt_model_aGR_SRA_MA_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+					
+					
+                    </uncertaintyModel>
+                    <uncertaintyWeight>0.10</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="fs_SRA_MU">
+                    <uncertaintyModel>
+                    source_models/fsm_v09/fs_pt_model_aGR_SRA_MU_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+
+					
+					 
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.025</uncertaintyWeight>
+                </logicTreeBranch>
+
+<!--  active faults source models: upper branches upper slip-rates vs MaxMags                 -->
+ 				<logicTreeBranch branchID="fs_SRU_ML">
+                    <uncertaintyModel>
+                    source_models/fsm_v09/fs_pt_model_aGR_SRU_ML_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+
+					
+					 
+					
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.10</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="fs_SRU_MA">
+                    <uncertaintyModel>
+                    source_models/fsm_v09/fs_pt_model_aGR_SRU_MA_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+
+
+					
+					 
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.08</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="fs_SRU_MU">
+                    <uncertaintyModel>
+                    source_models/fsm_v09/fs_pt_model_aGR_SRU_MU_fMthr.xml
+                    source_models/ssm_v09/seis_pt_fMthr_asm_pt_agbrs_point.xml
+		
+
+                     </uncertaintyModel>
+                    <uncertaintyWeight>0.02</uncertaintyWeight>
+                </logicTreeBranch>
+
+            </logicTreeBranchSet>
+    </logicTree>
+</nrml>

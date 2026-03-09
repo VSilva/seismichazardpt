@@ -1,0 +1,22 @@
+1	blue	501	blue	L
+501	blue	1001	blue	L
+1001	blue	1501	blue	L
+1501	blue	2001	blue	L
+2001	blue	2501	blue	L
+2501	blue	3001	blue	L
+3001	blue	3501	blue	L
+3501	blue	4001	blue	L
+4001	blue	4501	blue	L
+4501	blue	5001	blue	L
+5001	blue	5501	blue	L
+5501	blue	6001	blue	L
+6001	blue	6501	blue	L
+6501	blue	7001	blue	L
+7001	blue	7501	blue	L
+7501	blue	8001	blue	L
+8001	blue	8501	blue	L
+8501	blue	9001	blue	L
+9001	blue	9501	blue	B
+B	black
+F	white
+N	white

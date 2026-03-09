@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <logicTree
+    logicTreeID="pt Logic Tree - 2 Branch"
+    >
+        <logicTreeBranchSet
+        applyToTectonicRegionType="Shallow Inland"
+        branchSetID="Shallow_Def"
+        uncertaintyType="gmpeModel"
+        >
+            <logicTreeBranch
+            branchID="Shallow_Default_VLowStress_FastAtt"
+            >
+			<uncertaintyModel>
+			                    [KothaEtAl2020ESHM20]
+			                        c3_epsilon = 1.73205100
+			                </uncertaintyModel>
+                <uncertaintyWeight>
+                    1.0
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            
+        </logicTreeBranchSet>
+        <logicTreeBranchSet
+        applyToTectonicRegionType="Shallow offshore"
+        branchSetID="Shallow_off"
+        uncertaintyType="gmpeModel"
+        >
+            <logicTreeBranch
+            branchID="offshore events"
+            >
+			<uncertaintyModel>
+			                    [KothaEtAl2020ESHM20]
+			                        c3_epsilon = 1.73205100
+			                </uncertaintyModel>
+                <uncertaintyWeight>
+                    1.0
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            
+          </logicTreeBranchSet>
+
+    </logicTree>
+</nrml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nrml xmlns="http://openquake.org">
+    <logicTree logicTreeID="lt_revisao_nacional_2025">
+        
+        <!-- Nível 1: Inland -->
+        <logicTreeBranchingLevel branchingLevelID="bl1">
+            <logicTreeBranchSet branchSetID="bs_inl" uncertaintyType="gmpeModel" applyToTectonicRegionType="Shallow Inland">
+                <logicTreeBranch branchID="kotha_c_slow">
+					<uncertaintyModel>
+						[KothaEtAl2020ESHM20]
+					    c3_epsilon = 1.73205100
+					</uncertaintyModel>
+                    <uncertaintyWeight>0.30</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="Boore">
+					<uncertaintyModel>BooreEtAl2014</uncertaintyModel>
+                    <uncertaintyWeight>0.20</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="morgado_inl">
+                    <uncertaintyModel>Xana2025_inland</uncertaintyModel>
+                    <uncertaintyWeight>0.20</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="taherian_inl">
+                    <uncertaintyModel>Taherian2024Inland_modified</uncertaintyModel>
+                    <uncertaintyWeight>0.30</uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+
+        <!-- Nível 2: Offshore -->
+        <logicTreeBranchingLevel branchingLevelID="bl2">
+            <logicTreeBranchSet branchSetID="bs_off" uncertaintyType="gmpeModel" applyToTectonicRegionType="Shallow offshore">
+                <logicTreeBranch branchID="taherian_off">
+                    <uncertaintyModel>Taherian2024Offshore_modified</uncertaintyModel>
+                    <uncertaintyWeight>0.30</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="morgado_off">
+                    <uncertaintyModel>Morgadoetal2026_offshore</uncertaintyModel>
+                    <uncertaintyWeight>0.20</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="kotha_h_slow">
+                    <uncertaintyModel>
+                        [KothaEtAl2020ESHM20]
+                        sigma_mu_epsilon = 1.35563000
+                        c3_epsilon = 1.73205100
+                    </uncertaintyModel>
+                    <uncertaintyWeight>0.30</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="abrahamson_2014">
+                    <uncertaintyModel>AbrahamsonEtAl2014</uncertaintyModel>
+                    <uncertaintyWeight>0.20</uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+        </logicTreeBranchingLevel>
+
+    </logicTree>
+</nrml>

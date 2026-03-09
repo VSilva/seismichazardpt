@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="fs_model_eshm20_ver09e_var_Mthr">
+
+        <simpleFaultSource id="PTCF004" name="PTCF004T" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -30.81635   38.422781
+ -30.756152  38.418416
+ -30.695958  38.414052
+ -30.635787  38.409531
+ -30.575791  38.403771
+ -30.515799  38.398011
+ -30.455812  38.392251
+ -30.39583   38.386492
+ -30.335807  38.381046
+ -30.275782  38.375641
+ -30.215762  38.370237
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.6</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="4.0961"   bValue="0.87"  minMag="6.3"  maxMag="6.9"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF005" name="PTCF005T" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -30.150482  39.368561
+ -30.093973  39.373301
+ -30.037447  39.377958
+ -29.980889  39.382391
+ -29.924327  39.386825
+ -29.867761  39.39126 
+ -29.811192  39.395694
+ -29.754619  39.400129
+ -29.698043  39.404564
+ -29.641435  39.408775
+ -29.584812  39.412883
+ -29.528185  39.416992
+ -29.471554  39.421101
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.65</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="4.1725"   bValue="0.87"  minMag="6.3"  maxMag="6.9"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF006" name="PTCF006T" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -29.83008   40.64343 
+ -29.77175   40.635175
+ -29.713428  40.62692 
+ -29.655112  40.618667
+ -29.596803  40.610415
+ -29.538816  40.600969
+ -29.480842  40.591503
+ -29.422876  40.582038
+ -29.364919  40.572574
+ -29.306969  40.563112
+ -29.248451  40.55598 
+ -29.189832  40.549385
+ -29.131217  40.542791
+ -29.072606  40.536197
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>2.5</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.69</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="4.271"   bValue="0.87"  minMag="6.3"  maxMag="6.9"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF007" name="PTCF007T" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -29.712497  42.270488
+ -29.652058  42.273093
+ -29.591616  42.275699
+ -29.531144  42.277929
+ -29.470642  42.27968 
+ -29.410138  42.281431
+ -29.349632  42.283182
+ -29.289125  42.284933
+ -29.228616  42.286684
+ -29.168105  42.288435
+ -29.10755   42.288825
+ -29.046992  42.288703
+ -28.986434  42.288581
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>2.5</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.64</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="4.1735"   bValue="0.87"  minMag="6.3"  maxMag="6.9"/>
+            <rake>180.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="UNCF00M" name="UNCF00MT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -24.601     36.82489 
+ -24.545156  36.829022
+ -24.489309  36.833154
+ -24.433459  36.837287
+ -24.377606  36.84142 
+ -24.32175   36.845553
+ -24.265891  36.849686
+ -24.210029  36.85382 
+ -24.154164  36.857953
+ -24.098296  36.862087
+ -24.042425  36.866221
+ -23.986551  36.870356
+ -23.930674  36.87449 
+ -23.874794  36.878625
+ -23.818911  36.88276 
+ -23.763025  36.886895
+ -23.707136  36.891031
+ -23.651244  36.895167
+ -23.595349  36.899302
+ -23.539451  36.903439
+ -23.48355   36.907575
+ -23.42763   36.911577
+ -23.37169   36.915426
+ -23.315747  36.919275
+ -23.259801  36.923124
+ -23.203853  36.926973
+ -23.147902  36.930822
+ -23.091948  36.934672
+ -23.035991  36.938522
+ -22.980031  36.942372
+ -22.924069  36.946222
+ -22.868104  36.950072
+ -22.812136  36.953923
+ -22.756165  36.957773
+ -22.700191  36.961624
+ -22.644214  36.965476
+ -22.588235  36.969327
+ -22.532253  36.973178
+ -22.476268  36.97703 
+ -22.42028   36.980882
+ -22.364289  36.984734
+ -22.308316  36.98877 
+ -22.252403  36.993332
+ -22.196487  36.997893
+ -22.140567  37.002456
+ -22.084644  37.007018
+ -22.028718  37.011581
+ -21.972788  37.016144
+ -21.916855  37.020707
+ -21.860919  37.02527 
+ -21.80498   37.029834
+ -21.749037  37.034398
+ -21.693091  37.038962
+ -21.637142  37.043527
+ -21.58119   37.048092
+ -21.525234  37.052657
+ -21.469275  37.057222
+ -21.413313  37.061788
+ -21.357347  37.066354
+ -21.301378  37.07092 
+ -21.245406  37.075486
+ -21.18943   37.080053
+ -21.133428  37.084434
+ -21.077339  37.088058
+ -21.021247  37.091683
+ -20.965152  37.095307
+ -20.909055  37.098932
+ -20.852955  37.102557
+ -20.796852  37.106182
+ -20.740747  37.109807
+ -20.684639  37.113432
+ -20.628528  37.117058
+ -20.572415  37.120684
+ -20.516299  37.124309
+ -20.46018   37.127935
+ -20.404059  37.131562
+ -20.347935  37.135188
+ -20.291808  37.138815
+ -20.235679  37.142441
+ -20.179547  37.146068
+ -20.123412  37.149695
+ -20.068232  37.158697
+ -20.014877  37.173098
+ -19.961512  37.187502
+ -19.908138  37.201909
+ -19.854755  37.216318
+ -19.801363  37.230729
+ -19.747962  37.245143
+ -19.694552  37.259559
+ -19.641132  37.273978
+ -19.587703  37.288399
+ -19.534265  37.302823
+ -19.480818  37.317249
+ -19.427361  37.331678
+ -19.373895  37.346109
+ -19.32042   37.360543
+ -19.266936  37.374979
+ -19.213443  37.389418
+ -19.15994   37.403859
+ -19.106428  37.418302
+ -19.052907  37.432749
+ -18.999376  37.447197
+ -18.94566   37.461229
+ -18.891836  37.475025
+ -18.838003  37.488823
+ -18.784161  37.502624
+ -18.73031   37.516427
+ -18.67645   37.530232
+ -18.622581  37.54404 
+ -18.568703  37.557849
+ -18.514816  37.571662
+ -18.46092   37.585476
+ -18.407015  37.599293
+ -18.3531    37.613112
+ -18.299176  37.626933
+ -18.245244  37.640757
+ -18.191302  37.654583
+ -18.137351  37.668412
+ -18.083391  37.682243
+ -18.029422  37.696076
+ -17.975444  37.709911
+ -17.918751  37.708026
+ -17.863169  37.699006
+ -17.807594  37.689988
+ -17.752025  37.680971
+ -17.696463  37.671955
+ -17.640907  37.66294 
+ -17.585358  37.653925
+ -17.529815  37.644912
+ -17.474279  37.6359  
+ -17.418749  37.626889
+ -17.363226  37.617879
+ -17.307709  37.608871
+ -17.252199  37.599863
+ -17.196695  37.590856
+ -17.141198  37.58185 
+ -17.085707  37.572846
+ -17.030222  37.563842
+ -16.974744  37.55484 
+ -16.919272  37.545838
+ -16.863806  37.536838
+ -16.808347  37.527838
+ -16.752921  37.518737
+ -16.697505  37.509625
+ -16.642095  37.500513
+ -16.586691  37.491403
+ -16.531294  37.482294
+ -16.475904  37.473186
+ -16.42052   37.464079
+ -16.365143  37.454973
+ -16.309772  37.445868
+ -16.254407  37.436764
+ -16.199049  37.427661
+ -16.143697  37.41856 
+ -16.088352  37.409459
+ -16.033013  37.400359
+ -15.97768   37.391261
+ -15.922354  37.382163
+ -15.867034  37.373067
+ -15.811721  37.363971
+ -15.756414  37.354877
+ -15.701114  37.345784
+ -15.647677  37.331287
+ -15.59863   37.309066
+ -15.549594  37.286849
+ -15.500569  37.264638
+ -15.451555  37.242431
+ -15.402552  37.22023 
+ -15.35356   37.198033
+ -15.304579  37.175841
+ -15.255608  37.153655
+ -15.206649  37.131473
+ -15.1577    37.109296
+ -15.108763  37.087124
+ -15.059836  37.064957
+ -15.01092   37.042795
+ -14.962015  37.020637
+ -14.91312   36.998485
+ -14.864236  36.976337
+ -14.815363  36.954195
+ -14.76728   36.93241 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>85.0</dip>
+                <upperSeismoDepth>4.0</upperSeismoDepth>
+                <lowerSeismoDepth>16.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>30.29</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="4.5276"   bValue="1.022"  minMag="6.7"  maxMag="8.3"/>
+            <rake>160.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00I" name="PTCF00IT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -30.642536  38.410179
+ -30.620846  38.451711
+ -30.599155  38.493247
+ -30.577462  38.534786
+ -30.555767  38.576329
+ -30.534221  38.617924
+ -30.512684  38.659526
+ -30.491144  38.701131
+ -30.469603  38.74274 
+ -30.44806   38.784352
+ -30.426515  38.825967
+ -30.404969  38.867586
+ -30.383421  38.909208
+ -30.361871  38.950833
+ -30.340611  38.992551
+ -30.319493  39.034316
+ -30.298373  39.076084
+ -30.277251  39.117856
+ -30.256127  39.159631
+ -30.235002  39.201409
+ -30.213875  39.243191
+ -30.192747  39.284976
+ -30.171617  39.326764
+ -30.150482  39.368561
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.1902"   bValue="0.87"  minMag="6.1"  maxMag="7.1"/>
+            <rake>-90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00J" name="PTCF00JT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -29.680262  39.405958
+ -29.70111   39.364313
+ -29.721959  39.322667
+ -29.742806  39.281024
+ -29.763652  39.239385
+ -29.784941  39.197884
+ -29.806677  39.156526
+ -29.828411  39.115171
+ -29.850143  39.07382 
+ -29.871873  39.032472
+ -29.893601  38.991128
+ -29.915327  38.949787
+ -29.937052  38.90845 
+ -29.958775  38.867116
+ -29.980496  38.825786
+ -30.001998  38.784389
+ -30.023382  38.742959
+ -30.044764  38.701532
+ -30.066145  38.660109
+ -30.087524  38.618689
+ -30.108901  38.577272
+ -30.130277  38.535858
+ -30.151651  38.494448
+ -30.173023  38.453041
+ -30.194393  38.411637
+ -30.215762  38.370237
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.1322"   bValue="0.87"  minMag="6.1"  maxMag="7.1"/>
+            <rake>-90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00K" name="PTCF00KT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -30.052954  39.376742
+ -30.042279  39.421738
+ -30.031604  39.466735
+ -30.020929  39.511733
+ -30.009735  39.556658
+ -29.997589  39.601437
+ -29.985443  39.646217
+ -29.973296  39.690998
+ -29.96115   39.73578 
+ -29.949003  39.780563
+ -29.936855  39.825347
+ -29.924708  39.870133
+ -29.91256   39.91492 
+ -29.900411  39.959708
+ -29.888568  40.004545
+ -29.884852  40.050202
+ -29.881137  40.095859
+ -29.877422  40.141517
+ -29.873706  40.187175
+ -29.869991  40.232833
+ -29.866275  40.278491
+ -29.86256   40.324149
+ -29.858844  40.369807
+ -29.855129  40.415465
+ -29.851413  40.461123
+ -29.846747  40.506731
+ -29.841194  40.552282
+ -29.83564   40.597833
+ -29.83008   40.64343 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.2992"   bValue="0.87"  minMag="6.1"  maxMag="7.1"/>
+            <rake>-90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00L" name="PTCF00LT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -29.29616   40.561347
+ -29.300016  40.517209
+ -29.303876  40.473036
+ -29.307735  40.428863
+ -29.311502  40.384686
+ -29.314758  40.340485
+ -29.318015  40.296284
+ -29.321271  40.252083
+ -29.323523  40.207846
+ -29.325654  40.163605
+ -29.327786  40.119364
+ -29.329917  40.075123
+ -29.332048  40.030882
+ -29.334179  39.986641
+ -29.339685  39.942573
+ -29.350675  39.899111
+ -29.361665  39.85565 
+ -29.372656  39.812191
+ -29.383645  39.768732
+ -29.394635  39.725274
+ -29.405624  39.681817
+ -29.416613  39.638361
+ -29.427602  39.594907
+ -29.43859   39.551454
+ -29.449578  39.508002
+ -29.460566  39.464551
+ -29.471554  39.421101
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.2708"   bValue="0.87"  minMag="6.1"  maxMag="7.1"/>
+            <rake>-90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00M" name="PTCF00MT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -29.595759  40.610267
+ -29.588708  40.655187
+ -29.581658  40.700107
+ -29.574607  40.745027
+ -29.567498  40.789943
+ -29.560224  40.834845
+ -29.55295   40.879747
+ -29.545676  40.92465 
+ -29.538402  40.969553
+ -29.53194   41.014527
+ -29.527473  41.059638
+ -29.523007  41.104749
+ -29.518826  41.149877
+ -29.514808  41.195013
+ -29.51079   41.240149
+ -29.506772  41.285285
+ -29.502754  41.330421
+ -29.49968   41.3756  
+ -29.49968   41.420838
+ -29.49968   41.466076
+ -29.49968   41.511314
+ -29.49968   41.556552
+ -29.498806  41.601784
+ -29.497671  41.647014
+ -29.496536  41.692244
+ -29.495401  41.737474
+ -29.494267  41.782704
+ -29.493132  41.827934
+ -29.491997  41.873164
+ -29.49475   41.918354
+ -29.501553  41.963307
+ -29.508355  42.00826 
+ -29.515158  42.053214
+ -29.522398  42.098131
+ -29.531222  42.142892
+ -29.540045  42.187653
+ -29.548869  42.232415
+ -29.55769   42.277161
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.4125"   bValue="0.87"  minMag="6.1"  maxMag="7.1"/>
+            <rake>-90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00N" name="PTCF00NT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -28.986434  42.288581
+ -28.976911  42.244   
+ -28.967368  42.199324
+ -28.957824  42.154649
+ -28.948281  42.109974
+ -28.939176  42.065252
+ -28.930996  42.020432
+ -28.922815  41.975613
+ -28.914635  41.930794
+ -28.915069  41.885565
+ -28.917846  41.840383
+ -28.920623  41.795201
+ -28.9234    41.750019
+ -28.926176  41.704837
+ -28.929932  41.659695
+ -28.93643   41.614726
+ -28.942929  41.569757
+ -28.949427  41.524789
+ -28.954308  41.479707
+ -28.959011  41.434615
+ -28.963715  41.389523
+ -28.967623  41.344388
+ -28.970269  41.299202
+ -28.972914  41.254016
+ -28.97556   41.20883 
+ -28.978205  41.163644
+ -28.980851  41.118458
+ -28.984216  41.073299
+ -28.987645  41.028143
+ -28.991073  40.982987
+ -28.994502  40.937832
+ -28.99793   40.892677
+ -29.001554  40.847531
+ -29.007572  40.80253 
+ -29.01359   40.75753 
+ -29.019608  40.71253 
+ -29.030351  40.66804 
+ -29.044436  40.624091
+ -29.058521  40.580143
+ -29.072606  40.536197
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>2.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.3264"   bValue="0.87"  minMag="6.1"  maxMag="7.3"/>
+            <rake>-90.0</rake>
+        </simpleFaultSource>
+        <simpleFaultSource id="PTCF00S" name="PTCF00ST" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -12.216624  36.636184
+ -12.163287  36.624462
+ -12.109012  36.615703
+ -12.053706  36.613776
+ -11.998402  36.611849
+ -11.944172  36.620775
+ -11.891131  36.633518
+ -11.838082  36.646263
+ -11.788473  36.666023
+ -11.739577  36.686919
+ -11.692896  36.710866
+ -11.648947  36.737949
+ -11.604988  36.765038
+ -11.56102   36.792133
+ -11.518424  36.820616
+ -11.478056  36.85112 
+ -11.439427  36.883048
+ -11.397338  36.912055
+ -11.35165   36.93736 
+ -11.305412  36.962037
+ -11.259164  36.98672 
+ -11.214151  37.012838
+ -11.17101   37.040912
+ -11.131958  37.072583
+ -11.092897  37.10426 
+ -11.04688   37.129318
+ -10.996713  37.148685
+ -10.948054  37.170377
+ -10.900663  37.193804
+ -10.851943  37.215452
+ -10.800493  37.232657
+ -10.751006  37.253208
+ -10.701972  37.274456
+                    </gml:posList>
+                </gml:LineString>
+                <dip>18.0</dip>
+                <upperSeismoDepth>4.5</upperSeismoDepth>
+                <lowerSeismoDepth>17.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.74</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.0692"   bValue="0.775"  minMag="6.7"  maxMag="8.1"/>
+            <rake>85.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00T" name="PTCF00TT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -10.478964  35.81848 
+ -10.443124  35.851889
+ -10.404715  35.88349 
+ -10.361881  35.911121
+ -10.313276  35.931569
+ -10.273635  35.962189
+ -10.233213  35.992146
+ -10.197471  36.025784
+ -10.171703  36.064943
+ -10.145767  36.104034
+ -10.108764  36.136807
+ -10.067381  36.165978
+ -10.021744  36.190685
+  -9.974962  36.213974
+  -9.937948  36.246776
+  -9.910381  36.285163
+  -9.882597  36.323453
+  -9.847143  36.357394
+  -9.814143  36.392911
+  -9.79063   36.433029
+  -9.759492  36.469637
+  -9.718727  36.499524
+  -9.677954  36.529417
+                    </gml:posList>
+                </gml:LineString>
+                <dip>19.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.21</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.4455"   bValue="0.775"  minMag="6.5"  maxMag="7.5"/>
+            <rake>61.5</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00U" name="PTCF00UT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -10.259958  36.60099 
+ -10.223762  36.637571
+ -10.195995  36.679212
+ -10.172994  36.722687
+ -10.153782  36.767332
+ -10.138098  36.812854
+ -10.113606  36.855816
+ -10.087819  36.898296
+ -10.064377  36.941641
+ -10.042994  36.985666
+ -10.025921  37.030878
+                    </gml:posList>
+                </gml:LineString>
+                <dip>23.0</dip>
+                <upperSeismoDepth>4.5</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.35</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.8716"   bValue="0.775"  minMag="6.7"  maxMag="7.7"/>
+            <rake>53.5</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00V" name="PTCF00VT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -10.812824  35.829397
+ -10.758215  35.820774
+ -10.703612  35.812153
+ -10.649015  35.803532
+ -10.594422  35.794912
+ -10.539407  35.788332
+ -10.485331  35.77783 
+ -10.431528  35.766466
+ -10.376835  35.758395
+ -10.321778  35.752186
+ -10.266782  35.745663
+ -10.211968  35.738223
+ -10.156591  35.734443
+ -10.104453  35.718845
+ -10.050976  35.706622
+  -9.997095  35.695654
+  -9.945154  35.679685
+  -9.893616  35.662897
+  -9.841106  35.648253
+  -9.787993  35.635149
+  -9.734661  35.622669
+  -9.680832  35.611716
+  -9.626782  35.601531
+  -9.572739  35.591347
+  -9.518748  35.58101 
+  -9.465185  35.56931 
+  -9.411629  35.557611
+  -9.35808   35.545914
+  -9.304539  35.534219
+  -9.251005  35.522525
+  -9.197478  35.510833
+  -9.143958  35.499142
+  -9.090446  35.487453
+  -9.036941  35.475765
+  -8.983444  35.46408 
+  -8.929953  35.452395
+  -8.87647   35.440712
+  -8.822994  35.429031
+  -8.769525  35.417352
+  -8.716063  35.405674
+  -8.662609  35.393997
+  -8.609162  35.382322
+  -8.555722  35.370649
+  -8.502289  35.358977
+  -8.448863  35.347307
+  -8.395445  35.335638
+  -8.342033  35.323971
+  -8.288629  35.312306
+  -8.235233  35.300642
+  -8.181844  35.28898 
+  -8.128462  35.277319
+  -8.075087  35.26566 
+  -8.021719  35.254003
+  -7.968358  35.242346
+  -7.915004  35.230692
+  -7.861658  35.219039
+  -7.808318  35.207388
+  -7.754986  35.195738
+  -7.701661  35.18409 
+  -7.648343  35.172443
+  -7.595033  35.160798
+  -7.54173   35.149155
+  -7.488434  35.137513
+  -7.435145  35.125873
+  -7.381863  35.114234
+  -7.328588  35.102597
+  -7.275321  35.090961
+  -7.22206   35.079327
+  -7.168807  35.067694
+  -7.11556   35.056063
+  -7.062321  35.044434
+  -7.009089  35.032806
+  -6.955864  35.021179
+  -6.902646  35.009555
+  -6.849435  34.997931
+  -6.796288  34.986322
+                    </gml:posList>
+                </gml:LineString>
+                <dip>87.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.42</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.3854"   bValue="0.95"  minMag="6.1"  maxMag="7.1"/>
+            <rake>160.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00W" name="PTCF00WT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -11.173319  35.53571 
+ -11.121027  35.555351
+ -11.064399  35.562016
+ -11.008118  35.570424
+ -10.951865  35.578982
+ -10.895555  35.587313
+ -10.841232  35.60199 
+ -10.784501  35.608244
+ -10.72926   35.620487
+ -10.673239  35.630143
+ -10.615974  35.630559
+                    </gml:posList>
+                </gml:LineString>
+                <dip>24.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.13</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.8033"   bValue="0.775"  minMag="6.5"  maxMag="7.5"/>
+            <rake>85.5</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00X" name="PTCF00XT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -11.231381  35.361387
+ -11.175383  35.36544 
+ -11.118589  35.36741 
+ -11.0622    35.373294
+ -11.006756  35.383556
+ -10.951688  35.395109
+ -10.895527  35.402406
+ -10.838769  35.40534 
+ -10.78297   35.414319
+ -10.728822  35.428524
+ -10.677307  35.448207
+ -10.628491  35.47204 
+ -10.584153  35.501119
+ -10.538311  35.528624
+ -10.493274  35.557014
+ -10.44841   35.585603
+ -10.398443  35.607923
+ -10.345409  35.624956
+ -10.292365  35.641992
+                    </gml:posList>
+                </gml:LineString>
+                <dip>24.0</dip>
+                <upperSeismoDepth>4.5</upperSeismoDepth>
+                <lowerSeismoDepth>16.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.34</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.9904"   bValue="0.775"  minMag="6.7"  maxMag="7.7"/>
+            <rake>81.0</rake>
+        </simpleFaultSource>
+        <simpleFaultSource id="PTCF00Y" name="PTCF00YT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -7.39703  38.17319 
+ -7.452803 38.173888
+ -7.508414 38.172242
+ -7.563524 38.178343
+ -7.618639 38.184444
+ -7.673757 38.190547
+ -7.728819 38.19697 
+ -7.783787 38.203905
+ -7.83876  38.21084 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>45.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>17.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.12</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.2045"   bValue="0.996"  minMag="6.7"  maxMag="7.5"/>
+            <rake>135.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF00Z" name="PTCF00ZT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -6.712    42.012   
+ -6.712057 41.967089
+ -6.72308  41.922934
+ -6.745537 41.88125 
+ -6.765848 41.838965
+ -6.780279 41.795362
+ -6.803983 41.754077
+ -6.821719 41.711161
+ -6.838382 41.668009
+ -6.864324 41.627499
+ -6.902582 41.592877
+ -6.92938  41.552691
+ -6.9582   41.513303
+ -6.988085 41.474369
+ -7.017966 41.435441
+ -7.03802  41.393124
+ -7.053144 41.349672
+ -7.06826  41.306221
+ -7.083376 41.262771
+ -7.098492 41.219324
+ -7.113607 41.175878
+ -7.128721 41.132434
+ -7.143833 41.088992
+ -7.158947 41.045552
+ -7.174059 41.002113
+ -7.189171 40.958676
+ -7.213958 40.917856
+ -7.239487 40.877304
+ -7.266526 40.83732 
+ -7.296641 40.798624
+ -7.326758 40.759936
+ -7.356871 40.721254
+ -7.38698  40.682578
+ -7.416073 40.643465
+ -7.435191 40.600964
+ -7.45316  40.558178
+ -7.471125 40.515394
+ -7.489089 40.472612
+ -7.509836 40.430569
+ -7.53413  40.389646
+ -7.558432 40.348731
+ -7.582731 40.30782 
+ -7.614729 40.270121
+ -7.64738  40.23259 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>82.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>19.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.87</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.6026"   bValue="0.996"  minMag="6.7"  maxMag="7.7"/>
+            <rake>5.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF010" name="PTCF010T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.3327   40.16264 
+ -8.310614 40.204725
+ -8.288597 40.246682
+ -8.26658  40.288643
+ -8.245936 40.331012
+ -8.226647 40.373755
+ -8.207357 40.416501
+ -8.188064 40.45925 
+ -8.168771 40.502002
+ -8.149477 40.544756
+ -8.130181 40.587513
+ -8.110884 40.630273
+ -8.091586 40.673036
+ -8.072286 40.715802
+ -8.052986 40.758571
+ -8.033684 40.801342
+ -8.01438  40.844116
+ -7.995076 40.886893
+ -7.97577  40.929673
+ -7.956462 40.972456
+ -7.937154 41.015242
+ -7.917845 41.058031
+ -7.898534 41.100822
+ -7.879215 41.143614
+ -7.855113 41.185011
+ -7.827065 41.224982
+ -7.799013 41.264959
+ -7.770957 41.304941
+ -7.742898 41.344928
+ -7.714835 41.38492 
+ -7.686769 41.424918
+ -7.658699 41.464921
+ -7.630624 41.504929
+ -7.602547 41.544943
+ -7.574464 41.584962
+ -7.546379 41.624986
+ -7.518291 41.665016
+ -7.490197 41.705051
+ -7.462101 41.745092
+ -7.434004 41.785139
+ -7.420066 41.829128
+ -7.428382 41.873902
+ -7.431593 41.919039
+ -7.420796 41.963519
+ -7.41     42.008   
+                    </gml:posList>
+                </gml:LineString>
+                <dip>82.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>19.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.87</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.6154"   bValue="0.996"  minMag="6.7"  maxMag="7.7"/>
+            <rake>5.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF011" name="PTCF011T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -6.70976  40.13454 
+ -6.759117 40.108673
+ -6.80236  40.078796
+ -6.844935 40.048378
+ -6.891857 40.021993
+ -6.945104 40.004   
+ -6.998264 39.985878
+ -7.046343 39.960792
+ -7.103376 39.952094
+ -7.161377 39.94894 
+ -7.216628 39.935067
+ -7.260966 39.906247
+ -7.305294 39.877435
+ -7.349611 39.848629
+ -7.393917 39.81983 
+ -7.438213 39.791039
+ -7.482526 39.76228 
+ -7.530495 39.737246
+ -7.582645 39.717797
+ -7.634761 39.698318
+ -7.67945  39.669962
+ -7.703051 39.629259
+ -7.72665  39.58856 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>55.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>17.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.26</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.6425"   bValue="0.996"  minMag="6.7"  maxMag="7.7"/>
+            <rake>100.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF012" name="PTCF012T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.38154  40.00567 
+ -8.337212 40.036133
+ -8.292873 40.066604
+ -8.248524 40.097083
+ -8.204163 40.127569
+ -8.150823 40.147999
+ -8.096991 40.167685
+ -8.046561 40.192093
+ -8.000006 40.22066 
+ -7.953445 40.249241
+ -7.906873 40.277831
+ -7.860288 40.306427
+ -7.813691 40.33503 
+ -7.767083 40.363642
+ -7.720462 40.39226 
+ -7.680529 40.426257
+ -7.644042 40.46244 
+ -7.601126 40.494294
+ -7.555893 40.524255
+ -7.511911 40.55529 
+ -7.46965  40.58769 
+ -7.42705  40.62036 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>60.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>19.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.37</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.5026"   bValue="0.996"  minMag="6.7"  maxMag="7.7"/>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF013" name="PTCF013T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.33868  40.03692 
+ -8.350031 40.081163
+ -8.361382 40.125407
+ -8.372733 40.169652
+ -8.384085 40.213898
+ -8.395437 40.258145
+ -8.401858 40.302965
+ -8.395753 40.347812
+ -8.389609 40.392656
+ -8.383465 40.4375  
+ -8.377322 40.482345
+ -8.371178 40.52719 
+ -8.365034 40.572035
+ -8.35889  40.616881
+ -8.370765 40.661058
+ -8.387635 40.704292
+ -8.404519 40.747525
+ -8.421403 40.79076 
+ -8.438289 40.833998
+ -8.455175 40.877238
+ -8.472063 40.92048 
+ -8.48895  40.963725
+ -8.516161 41.003862
+ -8.555208 41.037994
+ -8.594305 41.072107
+ -8.63341  41.106228
+ -8.6727   41.14051 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>17.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.05</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.0618"   bValue="0.996"  minMag="6.5"  maxMag="7.5"/>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF014" name="PTCF014T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -9.36563  39.13427 
+ -9.334567 39.172865
+ -9.303633 39.211299
+ -9.272695 39.24974 
+ -9.241751 39.288186
+ -9.210804 39.326638
+ -9.179852 39.365096
+ -9.148894 39.403559
+ -9.117933 39.442029
+ -9.086965 39.480504
+ -9.055994 39.518985
+ -9.025018 39.557472
+ -8.994037 39.595965
+ -8.963031 39.634454
+ -8.926327 39.669855
+ -8.886072 39.702905
+ -8.845808 39.735963
+ -8.805536 39.769028
+ -8.765254 39.8021  
+ -8.724963 39.835179
+ -8.684663 39.868267
+ -8.644354 39.901362
+ -8.60404  39.934468
+ -8.566852 39.969672
+ -8.537769 40.00911 
+ -8.50868  40.048552
+ -8.479604 40.088007
+ -8.465204 40.131946
+ -8.457943 40.176903
+ -8.450681 40.221861
+ -8.443417 40.266819
+ -8.430358 40.311008
+ -8.39575  40.34783 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>17.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.05</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.853"   bValue="0.996"  minMag="6.5"  maxMag="7.5"/>
+            <rake>47.5</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF015" name="PTCF015T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -9.10977  38.71319 
+ -9.091709 38.757181
+ -9.084403 38.803021
+ -9.06177  38.845714
+ -9.033991 38.88653 
+ -9.006204 38.927349
+ -8.986265 38.97086 
+ -8.959985 39.01229 
+ -8.93357  39.05391 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.0</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.1882"   bValue="0.996"  minMag="6.5"  maxMag="7.5"/>
+            <rake>45.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF016" name="PTCF016T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.87871  38.51857 
+ -8.891581 38.562741
+ -8.904453 38.606914
+ -8.916465 38.651236
+ -8.927098 38.695772
+ -8.941077 38.739744
+ -8.969789 38.779128
+ -9.008581 38.812868
+ -9.04749  38.84668 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.51</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.2766"   bValue="0.996"  minMag="6.5"  maxMag="7.5"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF017" name="PTCF017T" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.89922  37.03416 
+ -8.881441 37.076173
+ -8.873055 37.11987 
+ -8.859854 37.162805
+ -8.84386  37.205134
+ -8.823851 37.24637 
+ -8.809248 37.289021
+ -8.794644 37.331673
+ -8.778997 37.374092
+ -8.762804 37.416385
+ -8.74661  37.45868 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.97</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.5106"   bValue="0.996"  minMag="6.3"  maxMag="7.3"/>
+            <rake>45.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF018" name="PTCF018T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.55     38.92    
+ -8.499994 38.879995
+ -8.45     38.84    
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>2.2</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.0796"   bValue="0.996"  minMag="5.9"  maxMag="6.9"/>
+            <rake>-55.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF019" name="PTCF019T" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.996    39.32    
+ -8.997143 39.274287
+ -8.998286 39.228574
+ -8.999428 39.182861
+ -8.999428 39.137139
+ -8.998286 39.091426
+ -8.997143 39.045713
+ -8.996    39.      
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>2.92</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.6996"   bValue="0.996"  minMag="6.5"  maxMag="7.5"/>
+            <rake>45.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01A" name="PTCF01AT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.76495  37.15312 
+ -8.794822 37.119923
+ -8.83026  37.090516
+ -8.86593  37.0613  
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>8.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.17</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.3634"   bValue="0.996"  minMag="5.9"  maxMag="6.2"/>
+            <rake>-45.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01B" name="PTCF01BT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.59228  37.17053 
+ -8.641332 37.147676
+ -8.690377 37.124837
+ -8.740329 37.103307
+ -8.79027  37.081781
+ -8.8402   37.06026 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.79</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.3207"   bValue="0.996"  minMag="6.1"  maxMag="7.1"/>
+            <rake>-135.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01D" name="PTCF01DT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.558    36.626   
+ -8.556575 36.672127
+ -8.55515  36.718254
+ -8.553725 36.764381
+ -8.552301 36.810508
+ -8.550876 36.856635
+ -8.549451 36.902762
+ -8.548026 36.948889
+ -8.546601 36.995016
+ -8.545176 37.041143
+ -8.543752 37.08727 
+ -8.544468 37.133408
+ -8.549075 37.179402
+ -8.55369  37.22543 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>82.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>12.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>2.08</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.6237"   bValue="0.996"  minMag="5.9"  maxMag="6.8"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01E" name="PTCF01ET" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.26313  37.08077 
+ -8.308421 37.100883
+ -8.353721 37.121   
+ -8.39903  37.14112 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.48</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.4181"   bValue="0.996"  minMag="5.9"  maxMag="6.7"/>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01F" name="PTCF01FT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.26155  37.0833  
+ -8.256775 37.139649
+ -8.252    37.196   
+                    </gml:posList>
+                </gml:LineString>
+                <dip>82.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>10.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.82</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="0.9626"   bValue="0.996"  minMag="5.9"  maxMag="6.5"/>
+            <rake>10.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01G" name="PTCF01GT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.48752  37.46249 
+ -8.454886 37.425739
+ -8.422261 37.388998
+ -8.389641 37.352263
+ -8.357027 37.315534
+ -8.324417 37.278811
+ -8.291813 37.242094
+ -8.259215 37.205382
+ -8.226621 37.168677
+ -8.19255  37.132843
+ -8.152676 37.101053
+ -8.11281  37.06927 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.97</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.5593"   bValue="0.996"  minMag="6.3"  maxMag="7.3"/>
+            <rake>135.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01H" name="PTCF01HT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.08648  37.05833 
+ -8.051491 37.098564
+ -8.002395 37.127979
+ -7.948855 37.151987
+ -7.89503  37.17611 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.73</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.2583"   bValue="0.996"  minMag="6.1"  maxMag="7.1"/>
+            <rake>45.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01I" name="PTCF01IT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.16665  37.13159 
+ -8.108139 37.13505 
+ -8.049626 37.13851 
+ -7.99111  37.14197 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.62</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.2138"   bValue="0.996"  minMag="5.9"  maxMag="6.9"/>
+            <rake>-45.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01J" name="PTCF01JT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -7.83856  37.04374 
+ -7.793257 37.071157
+ -7.747943 37.098581
+ -7.702619 37.126011
+ -7.653398 37.148796
+ -7.599806 37.164107
+ -7.546201 37.179414
+ -7.492587 37.194725
+ -7.43892  37.21005 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>82.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.68</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.7032"   bValue="0.996"  minMag="6.3"  maxMag="7.3"/>
+            <rake>180.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01K" name="PTCF01KT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -9.456    35.962   
+ -9.401106 35.956811
+ -9.346215 35.951623
+ -9.291328 35.946435
+ -9.236445 35.941247
+ -9.181565 35.936059
+ -9.126688 35.930872
+ -9.071815 35.925685
+ -9.016946 35.920499
+ -8.96208  35.915313
+ -8.907218 35.910127
+ -8.852359 35.904942
+ -8.797504 35.899757
+ -8.742653 35.894572
+ -8.687805 35.889388
+ -8.63296  35.884203
+ -8.578119 35.87902 
+ -8.523281 35.873836
+ -8.468447 35.868653
+ -8.413616 35.86347 
+ -8.358789 35.858288
+ -8.303966 35.853106
+ -8.249146 35.847924
+ -8.19433  35.842742
+ -8.139517 35.837561
+ -8.084708 35.832381
+ -8.0299   35.8272  
+                    </gml:posList>
+                </gml:LineString>
+                <dip>85.0</dip>
+                <upperSeismoDepth>3.0</upperSeismoDepth>
+                <lowerSeismoDepth>19.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.53</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.9091"   bValue="0.95"  minMag="6.1"  maxMag="7.2"/>
+            <rake>180.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01L" name="PTCF01LT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.398757 39.443376
+ -8.418951 39.40173 
+ -8.446308 39.362607
+ -8.471335 39.322567
+ -8.500189 39.284105
+ -8.527447 39.244959
+ -8.56768  39.213234
+ -8.602192 39.177703
+ -8.617581 39.134862
+ -8.6393   39.093706
+ -8.654105 39.050744
+ -8.675047 39.009354
+ -8.709836 38.974047
+ -8.749653 38.942122
+ -8.795805 38.914748
+                    </gml:posList>
+                </gml:LineString>
+                <dip>80.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.89</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.561"   bValue="0.996"  minMag="6.7"  maxMag="7.7"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01M" name="PTCF01MT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -9.038284 38.843831
+ -9.014649 38.885935
+ -8.986809 38.925835
+ -8.953006 38.962851
+ -8.919173 38.99986 
+ -8.882566 39.035251
+ -8.840981 39.067164
+ -8.796725 39.09685 
+ -8.761395 39.133044
+ -8.735745 39.173859
+ -8.706023 39.212984
+ -8.677259 39.252543
+ -8.632831 39.282179
+ -8.599244 39.319408
+ -8.568333 39.358007
+ -8.540467 39.397974
+ -8.508954 39.436297
+ -8.471715 39.471434
+ -8.424559 39.498579
+                    </gml:posList>
+                </gml:LineString>
+                <dip>80.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>3.89</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.679"   bValue="0.996"  minMag="6.7"  maxMag="7.7"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01N" name="PTCF01NT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -12.437     36.264   
+ -12.384067  36.247071
+ -12.33105   36.230115
+ -12.278043  36.213162
+ -12.225045  36.196213
+ -12.172328  36.178724
+ -12.119686  36.161113
+ -12.067054  36.143505
+ -12.014432  36.125901
+ -11.96182   36.1083  
+ -11.907119  36.095541
+ -11.851358  36.086283
+ -11.795603  36.077027
+ -11.739854  36.067771
+ -11.684112  36.058517
+ -11.627611  36.053074
+ -11.571081  36.047859
+ -11.514555  36.042643
+ -11.458033  36.037429
+ -11.401515  36.032214
+ -11.345     36.027   
+                    </gml:posList>
+                </gml:LineString>
+                <dip>85.0</dip>
+                <upperSeismoDepth>4.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>2.33</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="3.9009"   bValue="0.95"  minMag="5.9"  maxMag="6.9"/>
+            <rake>180.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="MACF007" name="MACF007T" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -9.658    35.288   
+ -9.606455 35.272434
+ -9.554915 35.256869
+ -9.503384 35.241307
+ -9.451862 35.225747
+ -9.400348 35.210191
+ -9.348843 35.194636
+ -9.297143 35.179543
+ -9.244637 35.166456
+ -9.19214  35.153371
+ -9.13965  35.140288
+ -9.087168 35.127207
+ -9.034693 35.114128
+ -8.982227 35.101051
+ -8.929978 35.087429
+ -8.877776 35.073708
+ -8.825581 35.05999 
+ -8.773395 35.046273
+ -8.721217 35.032559
+ -8.669047 35.018846
+ -8.617148 35.004484
+ -8.56553  34.989477
+ -8.513922 34.974472
+ -8.462321 34.95947 
+ -8.410729 34.944471
+ -8.359145 34.929473
+ -8.307411 34.914846
+ -8.25549  34.900699
+ -8.203576 34.886555
+ -8.15167  34.872413
+ -8.099772 34.858273
+ -8.047882 34.844136
+ -7.996    34.83    
+                    </gml:posList>
+                </gml:LineString>
+                <dip>85.0</dip>
+                <upperSeismoDepth>3.5</upperSeismoDepth>
+                <lowerSeismoDepth>21.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>7.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.7752"   bValue="0.953"  minMag="6.7"  maxMag="7.9"/>
+            <rake>157.5</rake>
+        </simpleFaultSource>
+      <simpleFaultSource id="PTCF01O" name="PTCF01OT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -9.702941 36.758112
+ -9.666252 36.789613
+ -9.627606 36.819725
+ -9.579413 36.839121
+ -9.531211 36.858521
+ -9.489185 36.885614
+ -9.453505 36.918019
+ -9.414679 36.948038
+ -9.367472 36.969045
+ -9.320255 36.990057
+                    </gml:posList>
+                </gml:LineString>
+                <dip>30.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>1.78</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.8609"   bValue="0.95"  minMag="6.1"  maxMag="7.1"/>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="PTCF01P" name="PTCF01PT" tectonicRegion="Shallow offshore">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -8.00626  36.14241 
+ -8.060215 36.128784
+ -8.114161 36.115161
+ -8.168163 36.101706
+ -8.222555 36.089345
+ -8.277312 36.078114
+ -8.332439 36.068158
+ -8.388192 36.060859
+ -8.444457 36.056896
+ -8.500916 36.055853
+ -8.557342 36.057739
+ -8.613706 36.060603
+ -8.670069 36.063509
+ -8.726429 36.066477
+ -8.782786 36.069521
+ -8.839139 36.07265 
+ -8.895489 36.075842
+ -8.95184  36.079051
+ -9.008194 36.082261
+ -9.064551 36.085458
+ -9.12092  36.08866 
+                    </gml:posList>
+                </gml:LineString>
+                <dip>55.0</dip>
+                <upperSeismoDepth>3.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_Interplate</magScaleRel>
+            <ruptAspectRatio>1.99</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="2.2824"   bValue="0.95"  minMag="6.3"  maxMag="7.4"/>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+        <simpleFaultSource id="ESCF01W" name="ESCF01WT" tectonicRegion="Shallow Inland">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+           -6.985914 39.112689
+ -6.96292  39.154332
+ -6.937753 39.195218
+ -6.910238 39.235193
+ -6.880215 39.274077
+ -6.849088 39.312445
+ -6.81787  39.350776
+ -6.786612 39.389096
+ -6.755314 39.427405
+ -6.723979 39.465705
+ -6.692616 39.503999
+ -6.660449 39.541904
+ -6.627129 39.57922 
+ -6.592683 39.615934
+ -6.556866 39.651871
+ -6.51939  39.686802
+ -6.48079  39.721016
+ -6.441089 39.754488
+ -6.400274 39.787173
+ -6.358754 39.819343
+ -6.316687 39.851106
+ -6.274083 39.882461
+ -6.23128  39.91367 
+ -6.188795 39.945151
+ -6.146874 39.977087
+ -6.105155 40.009194
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>Leonard2014_SCR</magScaleRel>
+            <ruptAspectRatio>6.9</ruptAspectRatio>
+          <truncGutenbergRichterMFD aValue="1.8908"   bValue="0.996"  minMag="6.7"  maxMag="8.1"/>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>
